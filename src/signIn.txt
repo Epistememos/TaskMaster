@@ -1,0 +1,369 @@
+/* Frame 1 */
+
+{position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;}
+
+
+/* Welcome */
+
+{position: absolute;
+width: 341px;
+height: 310px;
+left: 549px;
+top: 280px;}
+
+
+
+/* emailInput */
+
+/* Auto layout */
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;}
+
+{position: absolute;
+width: 341px;
+height: 57px;
+left: calc(50% - 341px/2 - 0.5px);
+top: 374px;}
+
+{background: rgba(191, 191, 191, 0.25);
+border-radius: 20px}
+
+
+/* Email */
+
+{width: 321px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #818181;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;}
+
+
+/* passwordInput */
+
+/* Auto layout */
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 341px;
+height: 57px;
+left: calc(50% - 341px/2 - 0.5px);
+top: 455px;
+
+background: rgba(191, 191, 191, 0.25);
+border-radius: 20px;
+
+
+/* Password */
+
+width: 321px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #818181;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;}
+
+
+/* welcomeText */
+
+{position: absolute;
+width: 244px;
+height: 85px;
+left: calc(50% - 244px/2);
+top: 280px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 61px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #37352F;}
+
+
+
+/* loginButton */
+
+/* Auto layout */
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 134px;
+height: 53px;
+left: calc(50% - 134px/2 - 94px);
+top: 537px;
+
+background: #37352F;
+border-radius: 20px;
+
+
+/* Log in */
+
+width: 114px;
+height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;}
+
+
+/* signupButton */
+
+/* Auto layout */
+{display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 148px;
+height: 53px;
+left: calc(50% - 148px/2 + 86px);
+top: 537px;
+
+background: #37352F;
+border-radius: 20px;
+
+
+/* Sign up */
+
+width: 128px;
+height: 44px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;}
+
+
+/* webTitle */
+
+{position: absolute;
+width: 426px;
+height: 119px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.35);
+
+
+/* taskmasterText */
+
+position: absolute;
+width: 278px;
+height: 47px;
+left: 99px;
+top: calc(50% - 47px/2);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #37352F;}
+
+
+
+/* icon */
+
+box-sizing: border-box;
+
+{position: absolute;
+width: 70px;
+height: 70px;
+left: 29px;
+top: 25px;
+
+background: url(todo-list.png);
+border: 1px solid #000000;}
+
+
+/* taskFrame */
+
+/* Auto layout */
+{display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 293px;
+height: 78px;
+left: calc(50% - 293px/2 - 489.5px);
+top: 116px;
+
+
+
+/* Daily tasks: */
+
+width: 280px;
+height: 82px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #37352F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;}
+
+
+/* taskArea */
+
+/* Auto layout */
+{display: flex;
+flex-direction: column;
+align-items: center;
+padding: 7px 12px;
+gap: 10px;
+
+position: absolute;
+width: 1300px;
+height: 767px;
+left: calc(50% - 1300px/2);
+top: 214px;}
+
+
+
+/* Frame 2 */
+
+{width: 1276px;
+height: 83px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;}
+
+/* Frame 1 */
+
+{position: absolute;
+width: 306px;
+height: 929px;
+left: 0px;
+top: 95px;
+
+background: #EBEBEB;}
+
+
+/* Tables */
+
+{position: absolute;
+width: 234px;
+height: 45px;
+left: 58px;
+top: 39px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+
+color: #37352F;}
+
+
+
+/* Manage Tables */
+
+{position: absolute;
+width: 243px;
+height: 45px;
+left: 17px;
+top: 103px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+
+color: #37352F;}
+

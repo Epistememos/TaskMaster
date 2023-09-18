@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 *:focus {
-  outline: 3px dashed #228bec;
+  outline: 1px dashed #7f7f7f;
   outline-offset: 0;
 }
 html {
-  font: 62.5% / 1.15 sans-serif;
+  font: 75% / 1.15 sans-serif;
 }
 h1,
 h2 {
