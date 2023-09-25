@@ -1,4 +1,71 @@
 /* Frame 1 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0.5px dashed #7f7f7f;
+  outline-offset: 0;
+}
+html {
+  font: 75% / 1.15 sans-serif;
+}
+h1,
+h2 {
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  appearance: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+input[type="text"] {
+  border-radius: 0;
+}
+body {
+  width: 100%;
+  max-width: 68rem;
+  margin: 0 auto;
+  font:
+    1.6rem/1.25 Inter,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #3a3a3a;
+}
+/Frame 1/
 
 {position: relative;
 width: 1440px;
@@ -42,9 +109,7 @@ border-radius: 20px}
 {width: 321px;
 height: 29px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
+
 font-size: 24px;
 line-height: 29px;
 /* identical to box height */
@@ -83,9 +148,6 @@ border-radius: 20px;
 width: 321px;
 height: 29px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
 font-size: 24px;
 line-height: 29px;
 /* identical to box height */
@@ -107,9 +169,6 @@ height: 85px;
 left: calc(50% - 244px/2);
 top: 280px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
 font-size: 50px;
 line-height: 61px;
 display: flex;
@@ -145,9 +204,6 @@ border-radius: 20px;
 width: 114px;
 height: 44px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
 font-size: 36px;
 line-height: 44px;
 /* identical to box height */
@@ -187,9 +243,6 @@ border-radius: 20px;
 width: 128px;
 height: 44px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
 font-size: 36px;
 line-height: 44px;
 /* identical to box height */
@@ -223,9 +276,6 @@ height: 47px;
 left: 99px;
 top: calc(50% - 47px/2);
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
 font-size: 48px;
 line-height: 58px;
 display: flex;
